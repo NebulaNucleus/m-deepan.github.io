@@ -11,7 +11,8 @@ body {
 
 .welcome-container {
     text-align: center;
-    padding: 20px;
+    padding: 60px;
+    margin-bottom: 70px;
     border-radius: 8px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -33,4 +34,12 @@ button {
 
 button:hover {
     background-color: #2980b9;
+}
+
+.guestClass{
+    padding-top: 16px;
+}
+
+.paraStyle{
+    color: red;
 }
