@@ -1,6 +1,6 @@
 function redirectToLogin() {
-   window.location.href = "/login-page/login.html";
+   window.location.href = "/m-deepan.github.io/login-page/login.html";
  }
  function redirectToRegister() {
-    window.location.href = "/register-page/register.html";
+    window.location.href = "/m-deepan.github.io/register-page/register.html";
   }
