@@ -1,5 +1,5 @@
 function getNews() {
-    const apiUrl = 'https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=a1b3eef508c84f419e9d8ad281010b26';
+    const apiUrl = 'http://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=a1b3eef508c84f419e9d8ad281010b26';
 
     // Fetch data from the JSON server
     fetch(apiUrl)
