@@ -3,60 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            background-color: #f4f4f4;
-        }
-
-        .welcome-container {
-            text-align: center;
-            padding: 20px;
-            border-radius: 8px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            background-color: #3498db;
-            color: #fff;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #2980b9;
-        }
-    </style>
+    <title>Welcome</title>
+    <link rel="stylesheet" href="mypage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
+
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="myscripts.js"></script>
 
-<div class="welcome-container">
-    <h1>Welcome to Our Website</h1>
-    <p>Discover amazing things and connect with others!</p>
-    <button onclick="redirectToDashboard()">Get Started</button>
-</div>
-
-<script>
-    function redirectToDashboard() {
-        // You can replace the URL with the actual path you want to redirect to
-       alert("Welcome");
-    }
-</script>
+    <div class="welcome-container">
+        <h1>Welcome to Our Website</h1>
+        <p>Discover amazing things and connect with others!</p>
+        <button onclick="redirectToLogin()">Login</button>
+        <button onclick="redirectToRegister()">New User ? Click here to Register</button>
+    </div>
 
 </body>
 </html>
