@@ -1,16 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>NebulaNucleus</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .welcome-container {
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
 </head>
 <body>
+
+<div class="welcome-container">
+    <h1>Welcome to Our Website</h1>
+    <p>Discover amazing things and connect with others!</p>
+    <button onclick="redirectToDashboard()">Get Started</button>
+</div>
+
 <script>
-  function buttonClick(){
-    alert("welcome!!");
-  }
+    function redirectToDashboard() {
+        // You can replace the URL with the actual path you want to redirect to
+        window.location.href = 'https://www.google.com/';
+    }
 </script>
-<h1>First page</h1>
-<p>I am Deepan.</p>
-<buuton (click)=buttonClick()> Click </buuton>
+
 </body>
 </html>
